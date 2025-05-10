@@ -191,4 +191,6 @@ html {
       transition: transform 0.3s ease;
       }
   }
-  
+   .imgContainer :hover {
+      transform: scale(1.2);
+  }
