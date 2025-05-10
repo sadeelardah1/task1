@@ -214,25 +214,25 @@ html {
         padding: 2rem;
         text-align: center;
     }
-  }
-  @media screen and (max-width: 450px)
-  {
+}
+@media screen and (max-width: 450px)
+{
     .child {
         margin: 3.5rem;
         img {
             display: none;
         }
     }
-  }
-   @media screen and (max-width: 1250px)
-  {
+}
+@media screen and (max-width: 1250px)
+{
     .flexContainer {
         margin: 0px;
     }
-  }
-  @media screen and (max-width: 1250px ) and ( min-width:768px)
-  {
+}
+@media screen and (max-width: 1250px ) and ( min-width:768px)
+{
     .child img {
         width: 500px;
     }
-  }
+}
