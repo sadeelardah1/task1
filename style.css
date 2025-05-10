@@ -80,6 +80,10 @@
 {
     font-size: 1vw;
 }
+
+
+/*Banner*/
+
 .Banner
 {
     width: 100%;
@@ -104,10 +108,16 @@
     transition: background 0.3s ease-in-out;
 
 }
+
+
+
+
+/*Blog*/
+
 .Blog
 {
-    font-size: 3vw;
-    margin-bottom: 5vw;
+    font-size: 2vw;
+    margin-top: 1.5vw;
 
 }
 .BlogContainer
@@ -117,11 +127,15 @@
     margin-left: 7vw;
     margin-right: 7vw;
     justify-content:center;
-    gap: 6vw;
+    gap: 5vw;
+    margin-top: 1vw;
 }
+
+
 .Bloger_i
 {
-    width: 25VW;
+    width: 28vw;
+    height: 31vw;
     box-shadow: 0 0 5px rgb(93, 93, 93);
     position: relative;
     box-sizing: border-box;
@@ -132,20 +146,35 @@
 .BlogImg img
 {
     width: 100%;
-    height: 100%;
+    height: 17.823vw;
+    object-fit: cover;
+}
+.Bloger
+{
+  width: 27vw;
 }
 .Bloger h2
 {
     display: flex;
     font-size: 1.5vw;
     padding-left: 1vw;
-    margin-top: 1vw;
+    margin-top: 0.5vw;
     color: #089da1;
 }
 .Bloger p
 {
-    font-size: 0.8vw;
+    font-size: 1vw;
     text-align: justify;
     color: #333;
     line-height: 1.5;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    margin-top: .5vw;
+}
+.BlogIcons
+{
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 20.5vw;
 }
