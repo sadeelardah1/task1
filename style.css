@@ -215,3 +215,12 @@ html {
         text-align: center;
     }
   }
+  @media screen and (max-width: 450px)
+  {
+    .child {
+        margin: 3.5rem;
+        img {
+            display: none;
+        }
+    }
+  }
