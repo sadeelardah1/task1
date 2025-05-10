@@ -224,3 +224,9 @@ html {
         }
     }
   }
+   @media screen and (max-width: 1250px)
+  {
+    .flexContainer {
+        margin: 0px;
+    }
+  }
