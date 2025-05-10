@@ -112,12 +112,16 @@
 }
 .BlogContainer
 {
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    justify-content:center;
+    gap: 6vw;
 }
-.Bloger_1
+.Bloger_i
 {
-    width: 35VW;
+    width: 25VW;
     box-shadow: 0 0 5px rgb(93, 93, 93);
     position: relative;
     box-sizing: border-box;
@@ -133,8 +137,8 @@
 .Bloger h2
 {
     display: flex;
-    font-size: 3vw;
-    padding-left: 2.5vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
     margin-top: 1vw;
     color: #089da1;
 }
