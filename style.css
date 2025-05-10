@@ -145,3 +145,36 @@ html {
       padding: 7px 15px; 
       color: black;
   }
+    .arrivalsParent {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px 40px 170px;
+  }
+  .arrivalsChild {
+      flex: 0 0 calc(16% - 50px);
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 300px;
+      height: 275px;
+      padding: 5px;
+      margin: 10px 42px;
+      text-align: center;
+      border: 1px solid #928484;
+      p, a {
+        padding-bottom: 6px;
+      }
+      p {
+      font-family:'Times New Roman', Times, serif;
+      font-size: 16px;
+      }
+      i {
+      padding-bottom: 15px;
+      color: var(--main-color);
+      }
+  }
+  .arrivalsChild:hover {
+      box-shadow: 0px 0px 3px 0px var(--main-color);
+      cursor: pointer;
+  }
