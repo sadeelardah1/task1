@@ -194,3 +194,18 @@ html {
    .imgContainer :hover {
       transform: scale(1.2);
   }
+   @media screen and (max-width: 768px)
+  {
+    .flexContainer{
+        width: calc(100%-20px);
+        padding: 0.769rem;
+        display: block;
+    }
+    .child img {
+        width: calc(100% - 5rem);
+        height: calc(100% - 5rem);
+    }
+    .about p{
+        width: 100%;
+    }
+  }
