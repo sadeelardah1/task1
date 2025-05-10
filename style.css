@@ -145,3 +145,94 @@ html {
       padding: 7px 15px; 
       color: black;
   }
+    .arrivalsParent {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px 40px 170px;
+  }
+  .arrivalsChild {
+      flex: 0 0 calc(16% - 50px);
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 300px;
+      height: 275px;
+      padding: 5px;
+      margin: 10px 42px;
+      text-align: center;
+      border: 1px solid #928484;
+      p, a {
+        padding-bottom: 6px;
+      }
+      p {
+      font-family:'Times New Roman', Times, serif;
+      font-size: 16px;
+      }
+      i {
+      padding-bottom: 15px;
+      color: var(--main-color);
+      }
+  }
+  .arrivalsChild:hover {
+      box-shadow: 0px 0px 3px 0px var(--main-color);
+      cursor: pointer;
+  }
+    .imgContainer {
+      width: 125px;
+      height: 187px;
+      overflow: hidden;
+      margin: auto;
+      position: relative;
+      img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      }
+  }
+   .imgContainer :hover {
+      transform: scale(1.2);
+  }
+   @media screen and (max-width: 768px)
+  {
+    .flexContainer{
+        width: calc(100%-20px);
+        padding: 0.769rem;
+        display: block;
+    }
+    .child img {
+        width: calc(100% - 5rem);
+        height: calc(100% - 5rem);
+    }
+    .about p{
+        width: 100%;
+    }
+    .about 
+    .featuredParent {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 450px)
+  {
+    .child {
+        margin: 3.5rem;
+        img {
+            display: none;
+        }
+    }
+  }
+   @media screen and (max-width: 1250px)
+  {
+    .flexContainer {
+        margin: 0px;
+    }
+  }
+  @media screen and (max-width: 1250px ) and ( min-width:768px)
+  {
+    .child img {
+        width: 500px;
+    }
+  }
