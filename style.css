@@ -208,4 +208,10 @@ html {
     .about p{
         width: 100%;
     }
+    .about 
+    .featuredParent {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
   }
