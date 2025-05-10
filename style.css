@@ -79,3 +79,43 @@ html {
       text-align: center;
       margin-top: 225px;
   }
+    .featuredParent {
+      display: flex;
+      /*justify-content: space-between;*/
+      margin: 40px;
+      overflow-x: scroll;
+      width: 100%;
+  }
+  .featuredChild {
+      flex: 1;
+      font-size: small;
+      min-width: 200px;
+      max-width: 300px;
+      height: 345px;
+      padding: 5px;
+      margin: 17px;
+      text-align: center;
+      border: 1px solid #928484;
+      img{
+      width: 125px;
+      height: 187px;
+      } 
+      a{
+      text-decoration: none;
+      color: black;
+      border: 2px solid var(--main-color);
+      padding: 5px 15px 10px;/**********************************************padding-bottom:10px*/
+      }
+      h1 {
+      font-size: 18px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      }
+      .thriller {
+          color: var(--main-color);
+      }
+  }
+  .featuredChild:hover {
+      box-shadow: 0px 0px 3px 0px var(--main-color);
+  }
+  
