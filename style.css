@@ -27,7 +27,7 @@ html {
 ::-webkit-scrollbar {
     width: 10px; /* for vertical scrollbar */
     height: 5px; /* for horizontal scrollbar */
-  }
+}
 ::-webkit-scrollbar-track { /* المسار */
     background: #f1f1f1; 
 }
@@ -48,26 +48,24 @@ html {
 #aboutt {
 
     p {
-      margin-top: 25px;
-      margin-bottom: 45px;
-      line-height: 17px;
-      word-break: break-all;
-      max-width: 500px;
-      }
-      h1{
-          font-size: 40px;
-      }
-      /*******************************************************/
-  }
-  .child {
-     flex: 1;
-     max-width: 50%;
-      height: auto;
-      display: block;
-      margin: 20px;
-     /*width:800px; height: 450px; margin-left: -70px;*/
-  }
-  .learn {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    line-height: 17px;
+    word-break: break-all;
+    max-width: 500px;
+    }
+    h1{
+    font-size: 40px;
+    }
+}
+.child {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px;
+}
+.learn {
     text-decoration: none;
     background-color: var(--main-color);
     color: white;
